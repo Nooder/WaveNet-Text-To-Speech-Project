@@ -11,7 +11,11 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
+    // Google Text-to-Speech API
     compile 'com.google.cloud:google-cloud-texttospeech:0.87.0-beta'
+    // Jsoup HTML parser library @ https://jsoup.org/
+    compile 'org.jsoup:jsoup:1.11.3'
+    
     testCompile 'junit:junit:4.12'
 }
 
